@@ -1,0 +1,4 @@
+---
+
+- include: apt_install_dnsmasq.yml
+- include: dnsmasq.yml

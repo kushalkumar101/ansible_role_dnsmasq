@@ -1,0 +1,6 @@
+---
+
+- name: upload config
+  template: src=etc/dnsmasq.conf dest=/etc/dnsmasq.conf
+  notify:
+    - restart dnsmasq
